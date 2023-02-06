@@ -11,4 +11,7 @@ class IconClass {
   static const matches = 'assets/icons/matches.svg';
   static const activity = 'assets/icons/activity.svg';
   static const ringingPhone = 'assets/icons/phoneintalk.svg';
+  static const addGroups = 'assets/icons/add_group.svg';
+  static const addDocuments = 'assets/icons/add_documents.svg';
+  static const addProperties = 'assets/icons/add_properties.svg';
 }
