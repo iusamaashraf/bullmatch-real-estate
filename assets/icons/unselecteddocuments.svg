@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="44.859" viewBox="0 0 59 44.859">
+  <g id="Groupe_56" data-name="Groupe 56" transform="translate(-275 -864.141)">
+    <g id="file_copy_black_24dp" transform="translate(275.467 864.141)">
+      <path id="Tracé_2" data-name="Tracé 2" d="M0,0H26.733V26.733H0Z" fill="none"/>
+      <path id="Tracé_3" data-name="Tracé 3" d="M17.594,1H4.228A2.234,2.234,0,0,0,2,3.228V18.822H4.228V3.228H17.594ZM16.48,5.456l6.683,6.683V23.278a2.234,2.234,0,0,1-2.228,2.228H8.672a2.225,2.225,0,0,1-2.217-2.228L6.467,7.683A2.225,2.225,0,0,1,8.683,5.456Zm-1.114,7.8h6.126L15.367,7.126Z" transform="translate(0.228 0.114)" fill="#b4b4b4"/>
+    </g>
+    <text id="Documents" transform="translate(275 896)" fill="#b4b4b4" font-size="11" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="11">Documents</tspan></text>
+  </g>
+</svg>

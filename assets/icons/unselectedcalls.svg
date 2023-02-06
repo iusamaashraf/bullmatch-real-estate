@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.489" height="48.15" viewBox="0 0 62.489 48.15">
+  <g id="Groupe_57" data-name="Groupe 57" transform="translate(-352.511 -860.85)">
+    <g id="phone_callback_black_24dp" transform="translate(352.511 860.85)">
+      <path id="Tracé_10" data-name="Tracé 10" d="M0,0H31.148V31.148H0Z" fill="none"/>
+      <path id="Tracé_11" data-name="Tracé 11" d="M7.7,13.113a19.661,19.661,0,0,0,8.553,8.553l2.855-2.855A1.29,1.29,0,0,1,20.43,18.5a14.8,14.8,0,0,0,4.633.74,1.3,1.3,0,0,1,1.3,1.3v4.529a1.3,1.3,0,0,1-1.3,1.3A22.061,22.061,0,0,1,3,4.3,1.3,1.3,0,0,1,4.3,3H8.84a1.3,1.3,0,0,1,1.3,1.3,14.744,14.744,0,0,0,.74,4.633,1.3,1.3,0,0,1-.324,1.324ZM25.271,3.9,24.35,2.99l-8.371,8.176V5.6h-1.3v7.787h7.787v-1.3H17.082Z" transform="translate(0.894 0.891)" fill="#b4b4b4"/>
+    </g>
+    <text id="Calls" transform="translate(356 896)" fill="#b4b4b4" font-size="11" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="11">Calls</tspan></text>
+  </g>
+</svg>

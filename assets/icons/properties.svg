@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.712" height="85.712" viewBox="0 0 85.712 85.712">
+  <g id="apartment_black_24dp" transform="translate(-0.144 -0.132)">
+    <g id="Groupe_1" data-name="Groupe 1" transform="translate(0.144 0.132)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="85.712" height="85.712" fill="none"/>
+    </g>
+    <g id="Groupe_2" data-name="Groupe 2" transform="translate(10.56 10.579)">
+      <path id="Tracé_1" data-name="Tracé 1" d="M53.356,31.775V3H17.387V17.387H3V67.743H31.775V53.356h7.194V67.743H67.743V31.775ZM17.387,60.549H10.194V53.356h7.194Zm0-14.387H10.194V38.968h7.194Zm0-14.387H10.194V24.581h7.194ZM31.775,46.162H24.581V38.968h7.194Zm0-14.387H24.581V24.581h7.194Zm0-14.387H24.581V10.194h7.194ZM46.162,46.162H38.968V38.968h7.194Zm0-14.387H38.968V24.581h7.194Zm0-14.387H38.968V10.194h7.194ZM60.549,60.549H53.356V53.356h7.194Zm0-14.387H53.356V38.968h7.194Z" transform="translate(-3 -3)" fill="#f7f7f7"/>
+    </g>
+  </g>
+</svg>

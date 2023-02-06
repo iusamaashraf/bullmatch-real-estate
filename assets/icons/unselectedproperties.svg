@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="48.018" viewBox="0 0 62 48.018">
+  <g id="Groupe_55" data-name="Groupe 55" transform="translate(-196 -860.982)">
+    <g id="apartment_black_24dp" transform="translate(195.856 860.85)">
+      <g id="Groupe_1" data-name="Groupe 1">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="33" height="33" transform="translate(0.144 0.132)" fill="none"/>
+      </g>
+      <g id="Groupe_2" data-name="Groupe 2" transform="translate(4.154 4.154)">
+        <path id="Tracé_1" data-name="Tracé 1" d="M22.387,14.079V3H8.539V8.539H3V27.927H14.079V22.387h2.77v5.539H27.927V14.079ZM8.539,25.157H5.77v-2.77h2.77Zm0-5.539H5.77v-2.77h2.77Zm0-5.539H5.77v-2.77h2.77Zm5.539,5.539h-2.77v-2.77h2.77Zm0-5.539h-2.77v-2.77h2.77Zm0-5.539h-2.77V5.77h2.77Zm5.539,11.079h-2.77v-2.77h2.77Zm0-5.539h-2.77v-2.77h2.77Zm0-5.539h-2.77V5.77h2.77Zm5.539,16.618h-2.77v-2.77h2.77Zm0-5.539h-2.77v-2.77h2.77Z" transform="translate(-3 -3)" fill="#b4b4b4"/>
+      </g>
+    </g>
+    <text id="Properties" transform="translate(199 896)" fill="#b4b4b4" font-size="11" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="11">Properties</tspan></text>
+  </g>
+</svg>

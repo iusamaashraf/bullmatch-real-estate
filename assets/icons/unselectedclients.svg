@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.078" height="51.819" viewBox="0 0 52.078 51.819">
+  <g id="Groupe_54" data-name="Groupe 54" transform="translate(-117.922 -857.181)">
+    <g id="people_black_24dp" transform="translate(117.922 857.181)">
+      <path id="Tracé_6" data-name="Tracé 6" d="M0,0H38.638V38.638H0Z" fill="none"/>
+      <path id="Tracé_7" data-name="Tracé 7" d="M25.149,14.66a4.83,4.83,0,1,0-4.83-4.83A4.81,4.81,0,0,0,25.149,14.66Zm-12.879,0A4.83,4.83,0,1,0,7.44,9.83,4.81,4.81,0,0,0,12.269,14.66Zm0,3.22C8.518,17.879,1,19.763,1,23.514v4.025H23.539V23.514C23.539,19.763,16.021,17.879,12.269,17.879Zm12.879,0c-.467,0-1,.032-1.562.08a6.794,6.794,0,0,1,3.172,5.554v4.025h9.66V23.514C36.418,19.763,28.9,17.879,25.149,17.879Z" transform="translate(0.61 3.05)" fill="#b4b4b4"/>
+    </g>
+    <text id="Clients" transform="translate(118 896)" fill="#b4b4b4" font-size="11" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="11">Clients</tspan></text>
+  </g>
+</svg>
