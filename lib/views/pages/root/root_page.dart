@@ -35,7 +35,7 @@ class _RootPageState extends State<RootPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: ColorClass.scaffoldColor,
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SizedBox(
           height: Get.height,

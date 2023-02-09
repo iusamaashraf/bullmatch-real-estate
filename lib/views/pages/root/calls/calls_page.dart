@@ -16,18 +16,19 @@ class CallsPage extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: Get.height * 0.02),
       child: Container(
-        height: Get.height,
         width: Get.width,
+        height: Get.height * 0.8,
         decoration: BoxDecoration(
-            color: const Color(0xffF7F7F7).withOpacity(.6),
-            borderRadius: BorderRadius.circular(12),
-            boxShadow: const [
-              BoxShadow(
-                color: Colors.black12,
-                blurRadius: 8,
-                offset: Offset(0, 3),
-              ),
-            ]),
+          color: const Color(0xffF2F2F2).withOpacity(.6),
+          borderRadius: BorderRadius.circular(12),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x00000029),
+              blurRadius: 8,
+              offset: Offset(0, 3),
+            ),
+          ],
+        ),
         child: Column(
           children: [
             SizedBox(height: Get.height * 0.04),
