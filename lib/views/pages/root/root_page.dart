@@ -10,8 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'components/root_header.dart';
+import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'components/row_data.dart';
 
 class RootPage extends StatefulWidget {
@@ -24,13 +23,16 @@ class RootPage extends StatefulWidget {
 class _RootPageState extends State<RootPage> {
   int selectedIndex = 0;
   bool isDrawerOpen = false;
-  final _pages = [
+  List<Widget> _pages = [
     HomePage(),
-    ClientsPage(),
+    ClientsPage(
+      index: 1,
+    ),
     PropertiesPage(),
     DocumentsPage(),
     CallsPage(),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -329,3 +331,120 @@ class _RootPageState extends State<RootPage> {
     );
   }
 }
+
+// import 'package:bullmatch/constants/colors.dart';
+// import 'package:bullmatch/views/pages/mainscreen.dart';
+// import 'package:bullmatch/views/settings.dart';
+// import 'package:flutter/cupertino.dart';
+// import 'package:flutter/material.dart';
+// import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+
+// import 'bottom_nav/clients/clients_page.dart';
+// import 'bottom_nav/home/home_page.dart';
+// import 'bottom_nav/properties/properties_page.dart';
+// import 'calls/calls_page.dart';
+// import 'documents/documents_page.dart';
+
+// class RootPage extends StatefulWidget {
+//   const RootPage({super.key});
+
+//   @override
+//   State<RootPage> createState() => _RootPageState();
+// }
+
+// class _RootPageState extends State<RootPage> {
+//   PersistentTabController? _controller;
+//   int index = 1;
+//   @override
+//   void initState() {
+//     _controller = PersistentTabController(initialIndex: index);
+//     super.initState();
+//   }
+
+//   List<Widget> _buildScreens() {
+//     return [
+//       HomePage(),
+//       ClientsPage(
+//         index: 1,
+//       ),
+//       PropertiesPage(),
+//       DocumentsPage(),
+//       CallsPage(),
+//     ];
+//   }
+
+//   List<PersistentBottomNavBarItem> _navBarsItems() {
+//     return [
+//       PersistentBottomNavBarItem(
+//         icon: const Icon(
+//           Icons.home,
+//           size: 25,
+//         ),
+//         title: ("Home"),
+//         activeColorPrimary: const Color(0xff4B4B4B),
+//         inactiveColorPrimary: ColorClass.greyColor,
+//       ),
+//       PersistentBottomNavBarItem(
+//         icon: const Icon(Icons.people),
+//         title: ("Clients"),
+//         activeColorPrimary: const Color(0xff4B4B4B),
+//         inactiveColorPrimary: ColorClass.greyColor,
+//       ),
+//       PersistentBottomNavBarItem(
+//         icon: const Icon(Icons.business),
+//         title: ("Properties"),
+//         activeColorPrimary: const Color(0xff4B4B4B),
+//         inactiveColorPrimary: ColorClass.greyColor,
+//       ),
+//       PersistentBottomNavBarItem(
+//         icon: const Icon(Icons.file_copy),
+//         title: ("Settings"),
+//         activeColorPrimary: const Color(0xff4B4B4B),
+//         inactiveColorPrimary: ColorClass.greyColor,
+//       ),
+//       PersistentBottomNavBarItem(
+//         icon: const Icon(Icons.phone_callback_sharp),
+//         title: ("Settings"),
+//         activeColorPrimary: const Color(0xff4B4B4B),
+//         inactiveColorPrimary: ColorClass.greyColor,
+//       ),
+//     ];
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return PersistentTabView(
+//       context,
+//       controller: _controller,
+//       screens: _buildScreens(),
+//       items: _navBarsItems(),
+//       confineInSafeArea: true,
+//       backgroundColor: Colors.white, // Default is Colors.white.
+//       handleAndroidBackButtonPress: true, // Default is true.
+//       resizeToAvoidBottomInset:
+//           true, // This needs to be true if you want to move up the screen when keyboard appears. Default is true.
+//       stateManagement: true, // Default is true.
+//       hideNavigationBarWhenKeyboardShows:
+//           true, // Recommended to set 'resizeToAvoidBottomInset' as true while using this argument. Default is true.
+//       decoration: NavBarDecoration(
+//         borderRadius: BorderRadius.circular(10.0),
+//         colorBehindNavBar: Colors.white,
+//       ),
+//       popAllScreensOnTapOfSelectedTab: true,
+//       popActionScreens: PopActionScreensType.all,
+//       itemAnimationProperties: const ItemAnimationProperties(
+//         // Navigation Bar's items animation properties.
+//         duration: Duration(milliseconds: 200),
+//         curve: Curves.ease,
+//       ),
+//       screenTransitionAnimation: const ScreenTransitionAnimation(
+//         // Screen transition animation on change of selected tab.
+//         animateTabTransition: true,
+//         curve: Curves.ease,
+//         duration: Duration(milliseconds: 200),
+//       ),
+//       navBarStyle:
+//           NavBarStyle.style2, // Choose the nav bar style with this property.
+//     );
+//   }
+// }

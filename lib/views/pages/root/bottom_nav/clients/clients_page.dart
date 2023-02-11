@@ -7,7 +7,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
 class ClientsPage extends StatelessWidget {
-  ClientsPage({super.key});
+  ClientsPage({super.key, required this.index});
+  final int index;
   final TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {

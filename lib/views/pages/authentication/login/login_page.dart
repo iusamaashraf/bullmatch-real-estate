@@ -68,7 +68,12 @@ class LoginPage extends StatelessWidget {
                 const SizedBox(height: 10),
                 CommonButton(
                   onTap: () {
-                    Get.to(() => RootPage());
+                    Navigator.pushReplacement<void, void>(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder: (BuildContext context) => const RootPage(),
+                      ),
+                    );
                   },
                   text: 'Sign In',
                 ),

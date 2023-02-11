@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="193" height="44" viewBox="0 0 193 44">
+  <g id="Groupe_102" data-name="Groupe 102" transform="translate(-197 -667)">
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="193" height="44" rx="22" transform="translate(197 667)" fill="#002fed"/>
+    <text id="Add_Property_" data-name="Add Property " transform="translate(271.268 679)" fill="#f9f9f9" font-size="15" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="15">Add Property </tspan></text>
+    <g id="apartment_black_24dp" transform="translate(233.118 672.993)">
+      <g id="Groupe_1" data-name="Groupe 1" transform="translate(0.144 0.132)">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="29.75" height="29.75" fill="none"/>
+      </g>
+      <g id="Groupe_2" data-name="Groupe 2" transform="translate(3.76 3.758)">
+        <path id="Tracé_1" data-name="Tracé 1" d="M20.478,12.987V3H7.994V7.994H3V25.472h9.987V20.478h2.5v4.994h9.987V12.987ZM7.994,22.975H5.5v-2.5h2.5Zm0-4.994H5.5v-2.5h2.5Zm0-4.994H5.5v-2.5h2.5Zm4.994,4.994h-2.5v-2.5h2.5Zm0-4.994h-2.5v-2.5h2.5Zm0-4.994h-2.5V5.5h2.5Zm4.994,9.987h-2.5v-2.5h2.5Zm0-4.994h-2.5v-2.5h2.5Zm0-4.994h-2.5V5.5h2.5Zm4.994,14.981h-2.5v-2.5h2.5Zm0-4.994h-2.5v-2.5h2.5Z" transform="translate(-3 -3)" fill="#fcfcfc"/>
+      </g>
+    </g>
+    <path id="Tracé_68" data-name="Tracé 68" d="M8.072,11.962V7.719H5.243v4.243H1v2.829H5.243v4.243H8.072V14.791h4.243V11.962Z" transform="translate(219.988 673.724)" fill="#fcfcfc"/>
+  </g>
+</svg>

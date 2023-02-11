@@ -1,5 +1,6 @@
 import 'package:bullmatch/constants/colors.dart';
 import 'package:bullmatch/constants/icons.dart';
+import 'package:bullmatch/views/pages/root/bottom_nav/clients/clients_page.dart';
 import 'package:bullmatch/views/widgets/search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -161,7 +162,14 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ClientsPage(
+                                        index: 0,
+                                      )));
+                        },
                         child: SvgPicture.asset(IconClass.addGroups)),
                     GestureDetector(
                         onTap: () {},
