@@ -10,7 +10,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'components/row_data.dart';
 
 class RootPage extends StatefulWidget {
@@ -23,13 +22,13 @@ class RootPage extends StatefulWidget {
 class _RootPageState extends State<RootPage> {
   int selectedIndex = 0;
   bool isDrawerOpen = false;
-  List<Widget> _pages = [
-    HomePage(),
+  final List<Widget> _pages = [
+    const HomePage(),
     ClientsPage(
       index: 1,
     ),
-    PropertiesPage(),
-    DocumentsPage(),
+    const PropertiesPage(),
+    const DocumentsPage(),
     CallsPage(),
   ];
 

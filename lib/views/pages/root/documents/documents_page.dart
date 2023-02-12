@@ -24,8 +24,8 @@ class _DocumentsPageState extends State<DocumentsPage> {
           showDialog(
             context: context,
             builder: (BuildContext context) {
-              return AlertDialog(
-                shape: const RoundedRectangleBorder(
+              return const AlertDialog(
+                shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
                     Radius.circular(12),
                   ),
