@@ -14,4 +14,7 @@ class IconClass {
   static const addGroups = 'assets/icons/add_group.svg';
   static const addDocuments = 'assets/icons/add_documents.svg';
   static const addProperties = 'assets/icons/add_properties.svg';
+  static const gallery = 'assets/icons/gallery.svg';
+  static const camera = 'assets/icons/photo_camera.svg';
+  static const download = 'assets/icons/file_download_black_24dp.svg';
 }

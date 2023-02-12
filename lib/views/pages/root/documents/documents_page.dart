@@ -1,4 +1,5 @@
 import 'package:bullmatch/constants/colors.dart';
+import 'package:bullmatch/constants/icons.dart';
 import 'package:bullmatch/models/document_model.dart';
 import 'package:bullmatch/views/widgets/search_field.dart';
 import 'package:flutter/material.dart';
@@ -22,16 +23,108 @@ class _DocumentsPageState extends State<DocumentsPage> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           showDialog(
+            barrierDismissible: false,
             context: context,
             builder: (BuildContext context) {
-              return const AlertDialog(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(12),
+              return SizedBox(
+                child: AlertDialog(
+                  shape: const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(12),
+                    ),
+                  ),
+                  title: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          Get.back();
+                        },
+                        child: const Icon(
+                          Icons.close,
+                          color: Colors.black,
+                        ),
+                      )
+                    ],
+                  ),
+                  content: SizedBox(
+                    height: Get.height * 0.22,
+                    child: Column(
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            GestureDetector(
+                              onTap: () {},
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(12.0),
+                                    child: SvgPicture.asset(
+                                      IconClass.gallery,
+                                      height: Get.height * 0.05,
+                                    ),
+                                  ),
+                                  Text(
+                                    'from gallery',
+                                    style: GoogleFonts.poppins(
+                                        fontSize: 10, color: Colors.black),
+                                  )
+                                ],
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {},
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(12.0),
+                                    child: SvgPicture.asset(
+                                      IconClass.camera,
+                                      height: Get.height * 0.05,
+                                    ),
+                                  ),
+                                  Text(
+                                    'Take picture',
+                                    style: GoogleFonts.poppins(
+                                        fontSize: 10, color: Colors.black),
+                                  )
+                                ],
+                              ),
+                            ),
+                            GestureDetector(
+                              onTap: () {},
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(12.0),
+                                    child: SvgPicture.asset(
+                                      IconClass.download,
+                                      height: Get.height * 0.05,
+                                    ),
+                                  ),
+                                  Text(
+                                    'download file',
+                                    style: GoogleFonts.poppins(
+                                        fontSize: 10, color: Colors.black),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: Get.height * 0.05),
+                        Align(
+                          alignment: Alignment.topRight,
+                          child: SvgPicture.asset(
+                            'assets/images/createnewdocument.svg',
+                            width: Get.width * 0.5,
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                 ),
-                title: Text('This is a dialog'),
-                content: Text('This dialog has a border radius of 12.'),
               );
             },
           );
