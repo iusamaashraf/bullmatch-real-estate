@@ -1,6 +1,7 @@
 import 'package:bullmatch/constants/colors.dart';
 import 'package:bullmatch/constants/icons.dart';
 import 'package:bullmatch/models/alphabet_model.dart';
+import 'package:bullmatch/views/pages/root/bottom_nav/clients/create_new_client_page.dart';
 import 'package:bullmatch/views/widgets/search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -14,7 +15,9 @@ class ClientsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {},
+        onPressed: () {
+          Get.to(() => CreateNewClientPage());
+        },
         label: Row(
           children: const [
             Icon(
